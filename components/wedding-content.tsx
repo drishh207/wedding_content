@@ -472,7 +472,10 @@ fontSize: "clamp(20px, 3vw, 30px)",
     src="/logo.png"
     alt="Akshit & Shristi"
     style={{
-      width: "clamp(220px, 38vw, 320px)",
+      width: "clamp(300px, 70vw, 550px)",
+      maxWidth: "90uw",
+      height: "auto",
+      objectFit: "contain",
       margin: "0 auto",
       display: "block",
       borderRadius: 12,
