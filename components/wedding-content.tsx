@@ -471,15 +471,17 @@ fontSize: "clamp(20px, 3vw, 30px)",
   <img
     src="/logo.png"
     alt="Akshit & Shristi"
+    width={1535}
+    height={1024}
+    loading="eager"
+    decoding="async"
     style={{
-      width: "clamp(300px, 70vw, 550px)",
-      maxWidth: "90uw",
+      width: "clamp(260px, 55vw, 420px)",
+      maxWidth: "85vw",
       height: "auto",
       objectFit: "contain",
       margin: "0 auto",
       display: "block",
-      borderRadius: 12,
-      boxShadow: "0 8px 40px rgba(180,130,120,0.10)",
     }}
   />
 </motion.div>
